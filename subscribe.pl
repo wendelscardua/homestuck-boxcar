@@ -36,12 +36,12 @@ print <<"HEAD";
 <body>
 <h1>Homestuck Update for Boxcar app - Subscription</h1>
 
-Firstly, if you haven't done so, install the Boxcar app. (<a href="http://boxcar.io">http://boxcar.io</a>, free on iTunes App Store)
+<p>Firstly, if you haven't done so, install the Boxcar app. (<a href="http://boxcar.io">http://boxcar.io</a>, free on iTunes App Store)
 
-Open this app and sign up. While (I hope) they are reviewing my "Homestuck Update" service you won't find it on Boxcar's "Add a service" 
+<p>Open this app and sign up. While (I hope) they are reviewing my "Homestuck Update" service you won't find it on Boxcar's "Add a service" 
 button yet, so that's why I've set up this page - I can subscribe users manually through their API.
 
-Just use the form below to subscribe your email on my service:
+<p>Just use the form below to subscribe your email to my service:
 
 HEAD
 

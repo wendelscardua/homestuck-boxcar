@@ -55,11 +55,11 @@ if ($email) {
 			]
 		);
 	if ($response->code == 404) {
-		print "<p> The email &lt;", $email, "&gt; is not registered at Boxcar. Open your Boxcar app and sign up first.",$/;
-		print "<p> (otherwise, you could have made a typo, check if you wrote your email correctly)",$/;
+		print "<p style='color:red'> The email &lt;", $email, "&gt; is not registered at Boxcar. Open your Boxcar app and sign up first.",$/;
+		print "<p style='color:red'> (otherwise, you could have made a typo, check if you wrote your email correctly)",$/;
 	} elsif ($response->code == 401) {
-		print "<p> How do you expect to subscribe, when your email &lt;",$email,"&gt; is already here ? 8^y" ,$/;
-		print "<p> But seriously, we already have your email. You can contact me if you aren't getting any notifications after updates",$/;
+		print "<p style='color:red'>  How do you expect to subscribe, when your email &lt;",$email,"&gt; is already here ? 8^y" ,$/;
+		print "<p style='color:red'>  But seriously, we already have your email. You can contact me if you aren't getting any notifications after updates",$/;
 		$ok = 1;
 	} else {
 		print "<p> Thanks for subscribing! You should get a notification next time Homestuck updates.";
